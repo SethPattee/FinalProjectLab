@@ -23,7 +23,7 @@ public class Tests
     {
         List<Contact> contactList = new List<Contact>();
         contactList.Add(new Contact("Dick", "Grayson", "1227 Gothem street", "Gothem", "123-123-1234"));
-        Assert.AreEqual((Contact.GetInfo("Bob", "Grayson", "1227 Gothem street", "Gothem", "123-123-1234")), Contact.GetInfo(contactList[0]));
+        Assert.AreEqual((Contact.GetInfo("Dick", "Grayson", "1227 Gothem street", "Gothem", "123-123-1234")), Contact.GetInfo(contactList[0]));
     }
     [Test]
     public void Adding2People()
