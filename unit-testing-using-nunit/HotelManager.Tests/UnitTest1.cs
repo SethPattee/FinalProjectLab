@@ -62,8 +62,8 @@ public class Tests
         contactList.Add(new Contact("Bob", "Marley", "#1 Ragge lane", "Jamaica", "123-123-1234"));
         contactList.Add(new Contact("I", "Am", "The", "Batman", "here"));
         contactList.Add(new Contact("Chuck", "Norris", "#1 Winnerlane", "Winning land", "telephety"));
-        Assert.AreEqual((Contact.GetInfo("I", "Am", "The", "Batman", "here")), Contact.GetInfo(contactList[22]));
-        Assert.AreEqual((Contact.GetInfo("Chuck", "Norris", "#1 Winnerlane", "Winning land", "telephety")), Contact.GetInfo(contactList[23]));
+        Assert.AreEqual((Contact.GetInfo("I", "Am", "The", "Batman", "here")), Contact.GetInfo(contactList[0]));
+        Assert.AreEqual((Contact.GetInfo("Chuck", "Norris", "#1 Winnerlane", "Winning land", "telephety")), Contact.GetInfo(contactList[1]));
     }
     [Test]
     public void WriteTofile()
