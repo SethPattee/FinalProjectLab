@@ -66,7 +66,7 @@ public class Tests
         Assert.AreEqual((Contact.GetInfo("Chuck", "Norris", "#1 Winnerlane", "Winning land", "telephety")), Contact.GetInfo(contactList[23]));
     }
     [Test]
-    public void WriteTofile()
+    public void WriteTofileWithoutMakingNewFile()
     {
         List<Contact> contactList = new List<Contact>();
         contactList.Add(new Contact("Dick", "Grayson", "1227 Gothem street", "Gothem", "123-123-1234"));
@@ -94,9 +94,8 @@ public class Tests
         contactList.Add(new Contact("I", "Am", "The", "Batman", "here"));
         contactList.Add(new Contact("Chuck", "Norris", "#1 Winnerlane", "Winning land", "telephety"));
         ControlMethods.WriteToFile(contactList);
-        ControlMethods.WriteToList(contactList);
-        Assert.AreEqual((Contact.GetInfo("I", "Am", "The", "Batman", "here")), Contact.GetInfo(contactList[22]));
-        Assert.AreEqual((Contact.GetInfo("Chuck", "Norris", "#1 Winnerlane", "Winning land", "telephety")), Contact.GetInfo(contactList[23]));
+        Assert.AreEqual((Contact.GetInfo("I", "Am", "The", "Batman", "here")), Contact.GetInfo(contactList[0]));
+        Assert.AreEqual((Contact.GetInfo("Chuck", "Norris", "#1 Winnerlane", "Winning land", "telephety")), Contact.GetInfo(contactList[1]));
 
     }
     public void ReadFromFile()
