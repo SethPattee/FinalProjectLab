@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "HotelManager.Console/1.0.0": {
+        "dependencies": {
+          "HotelManager": "1.0.0"
+        },
+        "runtime": {
+          "HotelManager.Console.dll": {}
+        }
+      },
+      "HotelManager/1.0.0": {
+        "runtime": {
+          "HotelManager.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HotelManager.Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HotelManager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
