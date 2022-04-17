@@ -13,7 +13,7 @@ public class Tests
     public void Setup()
     {
         List<Contact> contactList = new List<Contact>();
-        contactList.Add(new Contact("Dick", "Grayson", "1227 Gothem street", "Gothem", "123-123-1234"));
+        contactList.Add(new Contact("Bob", "Grayson", "1227 Gothem street", "Gothem", "123-123-1234"));
 
 
     }

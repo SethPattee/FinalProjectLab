@@ -32,6 +32,7 @@ public class Program
                     break;
                 case "4":
                     ControlMethods.WriteToList(contactList);
+                    Console.WriteLine("Contacts Loaded!");
                     break;
 
                 case "5":

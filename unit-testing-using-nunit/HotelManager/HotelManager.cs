@@ -186,14 +186,6 @@ public class ControlMethods
         foreach (var person in contactList)
         {
             tw.WriteLine(Contact.GetInfo(person));
-            // string Firstname = person.FirstName;
-            // string LastName = person.LastName;
-            // string Address = person.Address;
-            // string Phone = person.Phone;
-            // tw.WriteLine(Firstname);
-            // tw.WriteLine(LastName);
-            // tw.WriteLine(Address);
-            // tw.WriteLine(Phone);
         }
         tw.Close();
     }
@@ -201,7 +193,7 @@ public class ControlMethods
     {
         try
         {
-            string filePath = "/Users/sethpattee/Desktop/Labcode/unit-testing-using-nunit/HotelManager.Console/SavedList.txt";
+            string filePath = ("/Users/sethpattee/Desktop/Labcode/FinalProjectLab/unit-testing-using-nunit/HotelManager.Console/SavedList.txt");
             List<string> lines = new List<string>();
             List<Contact> contactlist = new List<Contact>();
             lines = File.ReadAllLines(filePath).ToList();
@@ -217,12 +209,11 @@ public class ControlMethods
                 Console.WriteLine(Contact.GetInfo(p));
 
             }
-            string outFile = "/Users/sethpattee/Desktop/Labcode/unit-testing-using-nunit/HotelManager.Console/SavedList.txt";
+            string outFile = ("/Users/sethpattee/Desktop/Labcode/FinalProjectLab/unit-testing-using-nunit/HotelManager.Console/SavedList.txt");
             File.WriteAllLines(outFile, outContents);
         }
         catch
         {
-            throw new NothingSaved("There is nothing saved");
 
         }
 
@@ -237,14 +228,6 @@ public class HasCommaException : Exception
 {
     public HasCommaException(string message)
     {
-
-    }
-}
-public class NothingSaved : Exception
-{
-    public NothingSaved(string message)
-    {
-        return;
 
     }
 }

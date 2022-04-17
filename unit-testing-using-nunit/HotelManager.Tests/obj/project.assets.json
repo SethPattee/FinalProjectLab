@@ -3876,11 +3876,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sethpattee/Desktop/Labcode/unit-testing-using-nunit/HotelManager.Tests/HotelManager.Tests.csproj",
+      "projectUniqueName": "/Users/sethpattee/Desktop/Labcode/FinalProjectLab/unit-testing-using-nunit/HotelManager.Tests/HotelManager.Tests.csproj",
       "projectName": "HotelManager.Tests",
-      "projectPath": "/Users/sethpattee/Desktop/Labcode/unit-testing-using-nunit/HotelManager.Tests/HotelManager.Tests.csproj",
+      "projectPath": "/Users/sethpattee/Desktop/Labcode/FinalProjectLab/unit-testing-using-nunit/HotelManager.Tests/HotelManager.Tests.csproj",
       "packagesPath": "/Users/sethpattee/.nuget/packages/",
-      "outputPath": "/Users/sethpattee/Desktop/Labcode/unit-testing-using-nunit/HotelManager.Tests/obj/",
+      "outputPath": "/Users/sethpattee/Desktop/Labcode/FinalProjectLab/unit-testing-using-nunit/HotelManager.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/sethpattee/.nuget/NuGet/NuGet.Config"
@@ -3895,8 +3895,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/sethpattee/Desktop/Labcode/unit-testing-using-nunit/HotelManager/HotelManager.csproj": {
-              "projectPath": "/Users/sethpattee/Desktop/Labcode/unit-testing-using-nunit/HotelManager/HotelManager.csproj"
+            "/Users/sethpattee/Desktop/Labcode/FinalProjectLab/unit-testing-using-nunit/HotelManager/HotelManager.csproj": {
+              "projectPath": "/Users/sethpattee/Desktop/Labcode/FinalProjectLab/unit-testing-using-nunit/HotelManager/HotelManager.csproj"
             }
           }
         }

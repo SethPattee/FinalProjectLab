@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lx2L5rawDYWhEL3kS2alYh2NOHzWLk53qBsoBcrGohgJMVcM0JpfEGpnv2RxWHh5t6Kk/qBEXFRTDKYHCLud4g==",
+  "dgSpecHash": "s0q77tZFUNYX2In90wBCDU6s39RDjTdREEATOYztalDm0Diz9bDo1rTWJjHE2IkosnO3zstnPrvLO7KtSdGNuA==",
   "success": true,
-  "projectFilePath": "/Users/sethpattee/Desktop/Labcode/unit-testing-using-nunit/HotelManager.Tests/HotelManager.Tests.csproj",
+  "projectFilePath": "/Users/sethpattee/Desktop/Labcode/FinalProjectLab/unit-testing-using-nunit/HotelManager.Tests/HotelManager.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/sethpattee/.nuget/packages/coverlet.collector/3.1.0/coverlet.collector.3.1.0.nupkg.sha512",
     "/Users/sethpattee/.nuget/packages/microsoft.codecoverage/16.11.0/microsoft.codecoverage.16.11.0.nupkg.sha512",
