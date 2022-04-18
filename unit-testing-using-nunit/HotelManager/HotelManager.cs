@@ -8,32 +8,7 @@ public class ControlMethods
 {
     public static void AddPerson(List<Contact> contactList)
     {
-        //bool badInput = true;
         bool badInput2 = true;
-        //string input = "EMPTY";
-
-        // while (badInput)
-        // {
-        //     int counter = 0;
-
-        //     Console.WriteLine("Please choose a option");
-
-        //     foreach (var person in contactList)
-        //     {
-        //         Console.WriteLine($"{counter}: {person.FirstName}");
-        //         counter++;
-        //     }
-
-        //     try
-        //     {
-        //         input = Console.ReadLine();
-        //         badInput = false;
-        //     }
-        //     catch
-        //     {
-
-        //     }
-        // }
         while (badInput2)
         {
             try
@@ -194,6 +169,7 @@ public class ControlMethods
         try
         {
             string filePath = ("/Users/sethpattee/Desktop/Labcode/FinalProjectLab/unit-testing-using-nunit/HotelManager.Console/SavedList.txt");
+            //you might have to change this to make it work
             List<string> lines = new List<string>();
             List<Contact> contactlist = new List<Contact>();
             lines = File.ReadAllLines(filePath).ToList();
@@ -210,6 +186,7 @@ public class ControlMethods
 
             }
             string outFile = ("/Users/sethpattee/Desktop/Labcode/FinalProjectLab/unit-testing-using-nunit/HotelManager.Console/SavedList.txt");
+            //you might have to change this to make it work
             File.WriteAllLines(outFile, outContents);
         }
         catch
