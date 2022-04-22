@@ -22,3 +22,15 @@
 /Users/sethpattee/Desktop/Labcode/FinalProjectLab/unit-testing-using-nunit/HotelManager/obj/Debug/net6.0/HotelManager.dll
 /Users/sethpattee/Desktop/Labcode/FinalProjectLab/unit-testing-using-nunit/HotelManager/obj/Debug/net6.0/ref/HotelManager.dll
 /Users/sethpattee/Desktop/Labcode/FinalProjectLab/unit-testing-using-nunit/HotelManager/obj/Debug/net6.0/HotelManager.pdb
+/Users/sethpattee/Desktop/Test/FinalProjectLab/unit-testing-using-nunit/HotelManager/bin/Debug/net6.0/HotelManager.deps.json
+/Users/sethpattee/Desktop/Test/FinalProjectLab/unit-testing-using-nunit/HotelManager/bin/Debug/net6.0/HotelManager.dll
+/Users/sethpattee/Desktop/Test/FinalProjectLab/unit-testing-using-nunit/HotelManager/bin/Debug/net6.0/ref/HotelManager.dll
+/Users/sethpattee/Desktop/Test/FinalProjectLab/unit-testing-using-nunit/HotelManager/bin/Debug/net6.0/HotelManager.pdb
+/Users/sethpattee/Desktop/Test/FinalProjectLab/unit-testing-using-nunit/HotelManager/obj/Debug/net6.0/HotelManager.csproj.AssemblyReference.cache
+/Users/sethpattee/Desktop/Test/FinalProjectLab/unit-testing-using-nunit/HotelManager/obj/Debug/net6.0/HotelManager.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sethpattee/Desktop/Test/FinalProjectLab/unit-testing-using-nunit/HotelManager/obj/Debug/net6.0/HotelManager.AssemblyInfoInputs.cache
+/Users/sethpattee/Desktop/Test/FinalProjectLab/unit-testing-using-nunit/HotelManager/obj/Debug/net6.0/HotelManager.AssemblyInfo.cs
+/Users/sethpattee/Desktop/Test/FinalProjectLab/unit-testing-using-nunit/HotelManager/obj/Debug/net6.0/HotelManager.csproj.CoreCompileInputs.cache
+/Users/sethpattee/Desktop/Test/FinalProjectLab/unit-testing-using-nunit/HotelManager/obj/Debug/net6.0/HotelManager.dll
+/Users/sethpattee/Desktop/Test/FinalProjectLab/unit-testing-using-nunit/HotelManager/obj/Debug/net6.0/ref/HotelManager.dll
+/Users/sethpattee/Desktop/Test/FinalProjectLab/unit-testing-using-nunit/HotelManager/obj/Debug/net6.0/HotelManager.pdb

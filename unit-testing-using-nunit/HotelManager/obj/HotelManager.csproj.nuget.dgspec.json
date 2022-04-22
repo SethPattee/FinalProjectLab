@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sethpattee/Desktop/Labcode/FinalProjectLab/unit-testing-using-nunit/HotelManager/HotelManager.csproj": {}
+    "/Users/sethpattee/Desktop/Test/FinalProjectLab/unit-testing-using-nunit/HotelManager/HotelManager.csproj": {}
   },
   "projects": {
-    "/Users/sethpattee/Desktop/Labcode/FinalProjectLab/unit-testing-using-nunit/HotelManager/HotelManager.csproj": {
+    "/Users/sethpattee/Desktop/Test/FinalProjectLab/unit-testing-using-nunit/HotelManager/HotelManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sethpattee/Desktop/Labcode/FinalProjectLab/unit-testing-using-nunit/HotelManager/HotelManager.csproj",
+        "projectUniqueName": "/Users/sethpattee/Desktop/Test/FinalProjectLab/unit-testing-using-nunit/HotelManager/HotelManager.csproj",
         "projectName": "HotelManager",
-        "projectPath": "/Users/sethpattee/Desktop/Labcode/FinalProjectLab/unit-testing-using-nunit/HotelManager/HotelManager.csproj",
+        "projectPath": "/Users/sethpattee/Desktop/Test/FinalProjectLab/unit-testing-using-nunit/HotelManager/HotelManager.csproj",
         "packagesPath": "/Users/sethpattee/.nuget/packages/",
-        "outputPath": "/Users/sethpattee/Desktop/Labcode/FinalProjectLab/unit-testing-using-nunit/HotelManager/obj/",
+        "outputPath": "/Users/sethpattee/Desktop/Test/FinalProjectLab/unit-testing-using-nunit/HotelManager/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sethpattee/.nuget/NuGet/NuGet.Config"
