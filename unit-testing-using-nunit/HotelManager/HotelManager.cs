@@ -139,7 +139,11 @@ public class ControlMethods
             }
             catch
             {
+<<<<<<< HEAD
                 Console.WriteLine("You entered a letter. Now you have to restart. Next time, please enter a number");
+=======
+               Console.WriteLine("You entered a letter. Now you have to restart. Next time, please enter a number");
+>>>>>>> 6fe049ca3e24813f682df0b65e7d0017ac4c4f29
                 Console.ReadLine();
                 return;
                 throw new YouEnteredALetter("You entered a letter. Now you have to restart. Next time, please enter a number");
@@ -162,7 +166,7 @@ public class ControlMethods
     {
         try
         {
-            string filePath = ("/Users/sethpattee/Desktop/Labcode/FinalProjectLab/unit-testing-using-nunit/HotelManager.Console/SavedList.txt");
+            string filePath = ("/Users/sethpattee/Desktop/Test/FinalProjectLab/unit-testing-using-nunit/HotelManager.Console/SavedList.txt");
             //you might have to change this to make it work
             List<string> lines = new List<string>();
             List<Contact> contactlist = new List<Contact>();
@@ -179,7 +183,7 @@ public class ControlMethods
             {
                 Console.WriteLine(Contact.GetInfo(p));
             }
-            string outFile = ("/Users/sethpattee/Desktop/Labcode/FinalProjectLab/unit-testing-using-nunit/HotelManager.Console/SavedList.txt");
+            string outFile = ("/Users/sethpattee/Desktop/Test/FinalProjectLab/unit-testing-using-nunit/HotelManager.Console/SavedList.txt");
             //you might have to change this to make it work
             File.WriteAllLines(outFile, outContents);
         }
