@@ -98,9 +98,11 @@ public class Tests
         Assert.AreEqual((Contact.GetInfo("Chuck", "Norris", "#1 Winnerlane", "Winning land", "telephety")), Contact.GetInfo(contactList[23]));
 
     }
+    [Test]
     public void ReadFromFile()
     {
         List<Contact> contactList = new List<Contact>();
+        var checkInList = new List<CheckIn>();
         contactList.Add(new Contact("Dick", "Grayson", "1227 Gothem street", "Gothem", "123-123-1234"));
         contactList.Add(new Contact("Bob", "Marley", "#1 Ragge lane", "Jamaica", "123-123-1234"));
         contactList.Add(new Contact("Dick", "Grayson", "1227 Gothem street", "Gothem", "123-123-1234"));
@@ -126,18 +128,9 @@ public class Tests
         contactList.Add(new Contact("I", "Am", "The", "Batman", "here"));
         contactList.Add(new Contact("Chuck", "Norris", "#1 Winnerlane", "Winning land", "telephety"));
         ControlMethods.WriteToFile(contactList);
-        ControlMethods.WriteToList(contactList);
+        ControlMethods.WriteToList(contactList, checkInList);
         Assert.AreEqual((Contact.GetInfo("I", "Am", "The", "Batman", "here")), Contact.GetInfo(contactList[22]));
         Assert.AreEqual((Contact.GetInfo("Chuck", "Norris", "#1 Winnerlane", "Winning land", "telephety")), Contact.GetInfo(contactList[23]));
 
     }
-    // [TestMethod]
-    // [ExpectedException(typeof(NothingSaved),
-    // "A userId of null was inappropriately allowed.")]
-    // public void NullUserIdInConstructor()
-    // {
-    //     List<Contact> contactList = new List<Contact>();
-    //     ControlMethods.WriteToList(contactList);
-    // }
-
 }
