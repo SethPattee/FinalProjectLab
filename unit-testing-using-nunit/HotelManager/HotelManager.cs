@@ -139,11 +139,7 @@ public class ControlMethods
             }
             catch
             {
-<<<<<<< HEAD
                 Console.WriteLine("You entered a letter. Now you have to restart. Next time, please enter a number");
-=======
-               Console.WriteLine("You entered a letter. Now you have to restart. Next time, please enter a number");
->>>>>>> 6fe049ca3e24813f682df0b65e7d0017ac4c4f29
                 Console.ReadLine();
                 return;
                 throw new YouEnteredALetter("You entered a letter. Now you have to restart. Next time, please enter a number");
