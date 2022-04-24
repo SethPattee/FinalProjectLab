@@ -131,6 +131,17 @@ public class Tests
         ControlMethods.WriteToList(contactList, checkInList);
         Assert.AreEqual((Contact.GetInfo("I", "Am", "The", "Batman", "here")), Contact.GetInfo(contactList[22]));
         Assert.AreEqual((Contact.GetInfo("Chuck", "Norris", "#1 Winnerlane", "Winning land", "telephety")), Contact.GetInfo(contactList[23]));
+    }
+     [Test]
+    public void ChangingStatus()
+    {
+        List<Contact> contactList = new List<Contact>();
+        List<CheckIn> checkInList = new List<CheckIn>();
+        contactList.Add(new Contact("Dick", "Grayson", "1227 Gothem street", "Gothem", "123-123-1234"));
+        checkInList.Add(new CheckIn(DateTime.Now, CheckInStatus.NotCheckedIn));
+        Assert.AreEqual((Contact.GetInfo("Dick", "Grayson", "1227 Gothem street", "Gothem", "123-123-1234")), Contact.GetInfo(contactList[0]));
+        Assert.AreEqual(DateTime.Now, checkInList[0].LastUpdate);
+        Assert.AreEqual(CheckInStatus.NotCheckedIn, checkInList[0].Status);
 
     }
 }
