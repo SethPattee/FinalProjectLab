@@ -137,10 +137,11 @@ public class Tests
     {
         List<Contact> contactList = new List<Contact>();
         List<CheckIn> checkInList = new List<CheckIn>();
+        DateTime now = DateTime.Now;
         contactList.Add(new Contact("Dick", "Grayson", "1227 Gothem street", "Gothem", "123-123-1234"));
-        checkInList.Add(new CheckIn(DateTime.Now, CheckInStatus.NotCheckedIn));
+        checkInList.Add(new CheckIn(now, CheckInStatus.NotCheckedIn));
         Assert.AreEqual((Contact.GetInfo("Dick", "Grayson", "1227 Gothem street", "Gothem", "123-123-1234")), Contact.GetInfo(contactList[0]));
-        Assert.AreEqual(DateTime.Now, checkInList[0].LastUpdate);
+        Assert.AreEqual(now, checkInList[0].LastUpdate);
         Assert.AreEqual(CheckInStatus.NotCheckedIn, checkInList[0].Status);
 
     }
