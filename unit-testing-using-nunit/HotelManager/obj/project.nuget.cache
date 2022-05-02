@@ -1,8 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "yL5IUMB4P4R/bmIMUELRomu8/HI2sry4J9HtmO4D5yhpEQvfeWdob3u0HM4EZBwQON67N/WJkEw18H83V1A2Lg==",
+  "dgSpecHash": "/dxjYr5Mgp+OaFoA37wr45JpMHnFlwkHXxPqT7agO8dadw2wJxXolT/0TdKBqXj9BdsxhbmRLONYrqiRr1PiWg==",
   "success": true,
-  "projectFilePath": "/Users/sethpattee/Desktop/Test/FinalProjectLab/unit-testing-using-nunit/HotelManager/HotelManager.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/sethpattee/Desktop/Labcode/FinalProjectLab/unit-testing-using-nunit/HotelManager/HotelManager.csproj",
+  "expectedPackageFiles": [
+    "/Users/sethpattee/.nuget/packages/consoletables/2.4.2/consoletables.2.4.2.nupkg.sha512",
+    "/Users/sethpattee/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/sethpattee/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "/Users/sethpattee/.nuget/packages/system.io/4.3.0/system.io.4.3.0.nupkg.sha512",
+    "/Users/sethpattee/.nuget/packages/system.reflection/4.3.0/system.reflection.4.3.0.nupkg.sha512",
+    "/Users/sethpattee/.nuget/packages/system.reflection.primitives/4.3.0/system.reflection.primitives.4.3.0.nupkg.sha512",
+    "/Users/sethpattee/.nuget/packages/system.reflection.typeextensions/4.3.0/system.reflection.typeextensions.4.3.0.nupkg.sha512",
+    "/Users/sethpattee/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",
+    "/Users/sethpattee/.nuget/packages/system.text.encoding/4.3.0/system.text.encoding.4.3.0.nupkg.sha512",
+    "/Users/sethpattee/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512"
+  ],
   "logs": []
 }
